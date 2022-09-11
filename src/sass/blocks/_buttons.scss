@@ -1,0 +1,45 @@
+.button {
+    width: 153px;
+    height: 32px;
+    background: #C70101;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &:hover {
+        transition: 0.5s all;
+        background-color: rgb(139, 9, 9);
+    }
+
+    &_main {
+        margin-top: 65px;
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+
+    }
+
+    &_submit {
+        width: 303px;
+        height: 58px;
+        background: #C70101;
+        font-size: 16px;
+
+    }
+
+    &_card {
+        width: 135px;
+        height: 44px;
+        background: #C70101;
+
+        &:hover {
+            transition: 0.5s all;
+            transform: scale(1.1);
+        }
+
+    }
+}

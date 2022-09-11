@@ -1,0 +1,138 @@
+.catalog-item {
+    width: 303px;
+    min-height: 442px;
+    border: 2px solid #e8e8e8;
+    padding: 20px 26px 26px 26px;
+    // overflow: hidden;
+    margin-bottom: 20px;
+
+    &__content {
+        display: none;
+
+        &_active {
+            display: block;
+            height: 335px;
+        }
+
+    }
+
+    &__list {
+        display: none;
+
+        &_active {
+            display: block;
+            height: 335px;
+
+        }
+
+        ul {
+
+            position: relative;
+            margin-left: 20px;
+            padding-right: 20px;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style-type: none;
+
+            li {
+                position: relative;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 21px;
+                color: #555555;
+                margin-bottom: 10px;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background-color: #C70101;
+                    left: -14px;
+                    top: 7px;
+                }
+            }
+        }
+    }
+
+
+    &__img {
+        max-width: 100%;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #0D0D0D;
+        text-align: center;
+    }
+
+    &__descr {
+        margin: 15px 3px 0 0;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: underline;
+        color: #C70101;
+
+        &:hover {
+            color: #C70101;
+        }
+    }
+
+    &__link-back {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: underline;
+        color: #C70101;
+
+        &:hover {
+            color: #C70101;
+        }
+    }
+
+
+    hr {
+        height: 1px;
+        background-color: black;
+        margin-top: 17px;
+        margin-bottom: 17px;
+
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__old-price {
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration-line: line-through;
+        color: #555555;
+    }
+
+    &__price {
+        font-weight: 700;
+        font-size: 20px;
+        color: #050505;
+    }
+}

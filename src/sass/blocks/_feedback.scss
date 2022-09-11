@@ -1,0 +1,68 @@
+.feedback {
+    margin-bottom: 48px;
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #0D0D0D;
+
+    }
+
+    &__reviews {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+
+
+        &_block {
+            margin-bottom: 60px;
+            display: flex;
+
+            // &_animated {
+            //     img {
+            //         animation-name: FadeInUp;
+            //         animation-duration: 1s;
+            //         animation-delay: 2s;
+            //     }
+            // }
+
+            img {
+                object-fit: none;
+            }
+
+            &_content {
+                margin-left: 60px;
+
+                &_name {
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #0D0D0D;
+                }
+
+                &_descr {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #979191;
+
+                }
+
+                &_text {
+                    margin-top: 10px;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #0D0D0D;
+
+                }
+            }
+        }
+
+    }
+
+}
